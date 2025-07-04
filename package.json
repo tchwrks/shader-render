@@ -1,4 +1,9 @@
 {
   "name": "shader-renderer",
-  "packageManager": "yarn@4.1.1"
+  "type": "module",
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "inquirer": "^12.7.0",
+    "puppeteer": "^24.11.2"
+  }
 }
